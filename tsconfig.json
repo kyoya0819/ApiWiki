@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react",
+        "strict": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "components/*": ["resources/ts/components/*"],
+            "data/*": ["resources/ts/data/*"],
+            "images/*": ["resources/ts/images/*"],
+            "pages/*": ["resources/ts/pages/*"]
+        }
+    },
+    "include": [
+        "resources"
+    ]
+}
